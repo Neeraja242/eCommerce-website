@@ -1,0 +1,69 @@
+GET  http://localhost:4000/test
+### Admin Login
+ 
+
+POST http://localhost:4000/api/product/add
+Authorization: Bearer  eyJhbGciOiJIUzI1NiJ9.YWRtaW5Ac2hvcGVzdC5jb21xd2VydHkxMjM.BjeF8BhPFjqSxy6cuoeTa9Cdi0DoZJqclperm84OE1o
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="name"
+
+testing data
+--boundary
+Content-Disposition: form-data; name="description"
+
+testing description
+--boundary
+Content-Disposition: form-data; name="price"
+
+10
+--boundary
+Content-Disposition: form-data; name="bestseller"
+
+true
+--boundary
+Content-Disposition: form-data; name="category"
+
+Men
+--boundary
+Content-Disposition: form-data; name="subCategory"
+
+TopWear
+--boundary
+Content-Disposition: form-data; name="sizes"
+
+["M"]
+--boundary
+Content-Disposition: form-data; name="image1"; filename="p_img2.png"
+Content-Type: image/png
+
+< ./p_img2.png
+--boundary
+Content-Disposition: form-data; name="image2"; filename="p_img2_1.png"
+Content-Type: image/png
+
+< ./p_img2_1.png
+--boundary
+Content-Disposition: form-data; name="image3"; filename="p_img2_2.png"
+Content-Type: image/png
+
+< ./p_img2_2.png
+--boundary
+Content-Disposition: form-data; name="image4"; filename="p_img2_3.png"
+Content-Type: image/png
+
+< ./p_img2_3.png
+--boundary--
+
+
+
+### List Products
+GET http://localhost:4000/api/product/list
+
+
+
+### Remove Product by ID
+DELETE http://localhost:4000/api/product/remove/6985e68d8daebe3672e69381
+
+ 
