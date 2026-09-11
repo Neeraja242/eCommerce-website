@@ -208,6 +208,20 @@ npm run dev
 - [ ] Wishlist functionality
 
 ---
+## 💳 Payment Testing (Stripe)
+
+This project uses **Stripe** in test mode for payment processing. No real transactions occur.
+
+To test the checkout flow, use Stripe's official test card:
+
+| Field | Value |
+|---|---|
+| Card Number | 4242 4242 4242 4242 |
+| Expiry Date | Any future date (e.g. 12/34) |
+| CVC | Any 3 digits |
+| ZIP/Postal Code | Any value |
+
+> ⚠️ This is a Stripe-provided dummy card for test mode only — no real payment is processed. Do not attempt to use a real card.
 
 ## Screenshots
 
