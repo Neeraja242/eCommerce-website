@@ -197,17 +197,6 @@ npm run dev
 | POST | `/remove` | Remove a product *(admin only)* |
 
 ---
-
-## Roadmap / Planned Improvements
-
-- [ ] Backend order & cart persistence (currently cart state is client-side only)
-- [ ] Payment gateway integration (Stripe / Razorpay)
-- [ ] Order status tracking for customers and admin
-- [ ] Chatbot integration for customer support and FAQs
-- [ ] Product reviews and ratings
-- [ ] Wishlist functionality
-
----
 ## 💳 Payment Testing (Stripe)
 
 This project uses **Stripe** in test mode for payment processing. No real transactions occur.
