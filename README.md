@@ -223,14 +223,9 @@ To test the checkout flow, use Stripe's official test card:
 
 > ⚠️ This is a Stripe-provided dummy card for test mode only — no real payment is processed. Do not attempt to use a real card.
 
-## Screenshots
-
-*(Add screenshots or a short demo GIF of the homepage, product page, cart, and admin panel here.)*
-
----
-
+ 
 ## Author
 
 **Neeraja Avula**
 📧 neerajaavula7@gmail.com
-🔗 [GitHub](https://github.com/YOUR-USERNAME)
+🔗 [GitHub](https://github.com/Neeraja242)
